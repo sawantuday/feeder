@@ -1,0 +1,204 @@
+#content > .container-fluid{padding:0}
+#content > .container-fluid .row-fluid{margin:0}
+.widget-box.rss-list{
+    margin: 0;
+   overflow-x: visible;
+    overflow-y: auto;
+}
+.rss-list .widget-content{padding:0}
+#entries.list .entry {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#entries{
+	min-height: 300px;
+    outline: 0 none;
+    padding: 0;
+    z-index: 1;
+}
+#entries .entry,
+#entries.list .entry-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0;
+}
+#entries .entry {
+    position: relative;
+}
+.entry-icons{width:15px; height:15px; display:block;}
+#entries.list .collapsed .entry-secondary {
+    left: 0;
+    margin: 0 9em 0 15em;
+    padding: 0 0 0 1px;
+}
+#entries.list .collapsed .entry-secondary {
+    color: #777777;
+    overflow: hidden;
+    position: absolute;
+    white-space: normal;
+	line-height: 22px;
+    width: auto;
+}
+#entries.list .collapsed .entry-main .entry-source-title {
+    color: #555555;
+    display: block;
+    font-size: 100%;
+    left: 1.85em;
+    overflow: hidden;
+    padding: 0 1em 0 0.5em;
+    position: absolute;
+    white-space: nowrap;
+    width: 11em;
+}
+#entries.list .collapsed .entry-secondary .entry-title {
+    display: inline;
+    margin: 0;
+	font-size:100%;
+	/*line-height:normal;*/
+    padding: 0;
+    position: static;
+    width: auto;
+	color:#333;
+}
+.rss-list #entries.list .collapsed .entry-icons {
+    left: 0.4em;
+}
+.rss-list #entries.list .collapsed .entry-icons {
+    margin-top: 2px;
+    /*top: 50%;*/
+}
+#entries.list .collapsed .entry-icons {
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    width: auto;
+}
+#entries.list .collapsed .entry-icons .icon-star-empty{
+	font-size:17px;
+	height: 15px;
+    padding: 0;
+    width: 15px;
+}
+#entries.list .collapsed .entry-icons .icon-star-empty:before:hover{
+	color:#e3cf7a;
+}
+#entries.list #current-entry.expanded.read .collapsed {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+#entries.list #current-entry.expanded .collapsed {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #EBEBEB;
+}
+#entries.list #current-entry .collapsed {
+    background: none repeat scroll 0 0 #FFFFCC;
+    border-right-color: #FFFFCC;
+}
+#entries.list .read .collapsed {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #EEEEEE;
+}
+#entries.list .entry .collapsed {
+    cursor: pointer;
+    margin: 0;
+    overflow: hidden;
+    padding:8px 10px;
+    position: relative;
+    width: auto;
+}
+#entries.list .entry .entry-container {
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+#entries .entry, #entries.list .entry-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0;
+}
+.entry .entry-container {
+    padding-bottom: 0.5em;
+    position: relative;
+}
+.entry .entry-container h2{
+	margin:0
+}
+.entry .entry-container h2 a{
+	color: #28B779;
+	font-size: 16px;
+	line-height:normal
+	}
+.entry-container .entry-author a{
+	color:#28B779;
+	}
+.entry .entry-container .entry-body {
+    padding-top: 0.5em;
+}
+.entry .entry-actions{
+	background:#FAFAFA;
+	border-top: 1px solid #EBEBEB;
+    padding:3px 0;
+    display: block;
+    left: 0;
+	text-align: left;
+	}
+.entry .entry-actions .icon-star-empty{
+	font-size: 17px;
+    height: 15px;
+    margin-left: 0.3em;
+    padding: 0;
+    width: 15px;
+	}
+#actions{
+	position: absolute;  
+	top: 28px;
+	left: 221px;
+}
+
+.btn .caret {
+    margin-bottom: 8px;
+}
+/* modal-box Starts */
+#subs-form{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: auto;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 400;
+}
+#subs-form .modal-header .close{margin-top: 4px;}
+#subs-form #modal-box{
+	background: none repeat scroll 0 0 white;
+    border: 1px solid #DADADA;
+    box-shadow: 0 2px 26px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 360px;
+    min-height:120px;
+    z-index: 3;
+}
+#subs-form #modal-box .control-label{
+	display: block;	
+}
+#subs-form #modal-box .control{
+	height:auto
+}
+#subs-form #modal-box input[type="submit"]{
+	margin-top: -10px;
+	margin-left: 5px;
+}
+#subs-form #modal-box form{
+	padding:15px;
+	
+}
+/* modal-box Ends */
+
+.submenu li span.label{
+float: right;
+margin: 2px 10px 0 0;
+}
